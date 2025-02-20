@@ -1,5 +1,7 @@
 package Exercícios;
 
+import java.util.Scanner;
+
 class Calculadora{
 
     public double somar (double a, double b){
@@ -23,11 +25,17 @@ class Calculadora{
 
 public class Exercicio01 {
     public static void main(String[] args) {
+
+        Scanner leia = new Scanner(System.in);
         
         Calculadora calc = new Calculadora();
 
-        double num1 = 27;
-        double num2 = 3;
+        
+        System.out.print("Digite o primeiro número: ");
+        double num1 = leia.nextDouble();
+
+        System.out.print("digite o segundo número: ");
+        double num2 = leia.nextDouble();
 
         System.out.println("Soma: " + calc.somar(num1, num2));
         System.out.println("Subtração: " + calc.subtrair(num1, num2));
