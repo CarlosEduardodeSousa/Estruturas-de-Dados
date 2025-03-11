@@ -41,5 +41,7 @@ public class Exercicio01 {
         System.out.println("Subtração: " + calc.subtrair(num1, num2));
         System.out.println("Multiplicação: " + calc.multiplicar(num1, num2));
         System.out.println("Divisão: " + calc.dividir(num1, num2));
+
+        
     }
 }
