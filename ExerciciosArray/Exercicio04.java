@@ -9,7 +9,7 @@ public class Exercicio04 {
 
         ArrayList<String> contatos = new ArrayList<>();
 
-        System.out.println("Digite a quantidade de contatos para casdastrar: ");
+        System.out.println("Digite a quantidade de contatos para cadastrar: ");
         int qtd = leia.nextInt();
         leia.nextLine();
 
