@@ -41,7 +41,7 @@ public class Arrays_de_inteiros {
 
         // Boolean : true : false
         System.out.println( encontrado? "Número " + busca +  " foi encontrado com sucesso!" : 
-                " O número " + busca + " não foi enconyrado no array!");
+                " O número " + busca + " não foi encontrado no array!");
 
         // Remoção
 
