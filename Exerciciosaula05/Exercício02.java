@@ -3,7 +3,7 @@ package Exerciciosaula05;
 import java.util.Arrays;
 
 public class Exercício02 {
-    public static void selectionSort(int [] arr){
+    public static int selectionSort(int [] arr){
         int n = arr.length;
         int trocas = 0;
 
@@ -30,8 +30,8 @@ public class Exercício02 {
     public static void main(String[] args) {
         int [] arr = {64, 25, 12, 22, 11};
         
-        int totalTrocas = selectionSort(arr);
+        int trocas = selectionSort(arr);
         System.out.println(Arrays.toString(arr));
-        System.out.println("Número de trocas: " + totalTrocas);
+        System.out.println("Número de trocas: " + trocas);
     }
 }
